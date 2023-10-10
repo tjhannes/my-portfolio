@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 10px;
+}
+
+h1,
+h3 {
+  font-family: "Alkatra", cursive;
+  text-align: center;
+}
+
+/* for every picture */
+.images {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* navigation */
+nav {
+  background-image: url("./images/pexels-pixabay-301614.jpg");
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav a {
+  background-color: lightgreen;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  color: black;
+  text-align: center;
+  width: 80%;
+  margin: 0.5rem;
+  text-decoration: none;
+}
+
+section,
+footer {
+  margin: 1rem;
+}
+
+/* section 1 */
+
+.one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.picture1 {
+  background-image: url("./images/pexels-casia-charlie-2451040.jpg");
+  width: 300px;
+  height: 300px;
+  margin: 1rem;
+}
+
+/* section 2 */
+.two {
+  background-color: #ffe4c4;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+/* section 3 */
+.three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picture3 {
+  background-image: url("./images/pexels-ryutaro-tsukata-5745869.jpg");
+  width: 300px;
+  height: 300px;
+  margin: 1rem;
+}
+
+/* section 4 */
+
+.four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picture4klein {
+  background-image: url("./images/ricardo.jpg");
+  width: 100px;
+  height: 100px;
+  margin: 1rem;
+}
+.picture4gross {
+  background-image: url("./images/pexels-satoshi-hirayama-2070033.jpg");
+  width: 300px;
+  height: 300px;
+  margin: 1rem;
+}
+
+/* footer */
+
+footer {
+  background-color: #ffe4c4;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: silver;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  nav a {
+    width: 20%;
+  }
+  .three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .three p {
+    width: 30%;
+  }
+  .four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
